@@ -1,0 +1,33 @@
+{
+  "name": "photosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghavendraAchari/vue-photosite.git"
+  },
+  "author": "Raghavendra Achari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaghavendraAchari/vue-photosite/issues"
+  },
+  "homepage": "https://github.com/RaghavendraAchari/vue-photosite#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.28.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
