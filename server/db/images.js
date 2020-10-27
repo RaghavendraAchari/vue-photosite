@@ -3,61 +3,81 @@ var images = [
     title: "Bird",
     path: "./assets/images/Bird-edited.jpg",
     original:
-      "https://drive.google.com/file/d/1yNMEuqGCEf3oaPhhe79nflYsQfpmtvCf/view?usp=sharing"
+      "https://drive.google.com/uc?id=1yNMEuqGCEf3oaPhhe79nflYsQfpmtvCf&export=download",
+    date: new Date(2020, 0, 10),
+    hits: 90
   },
   {
     title: "Bird 2",
     path: "./assets/images/Bird-edited-2.jpg",
     original:
-      "https://drive.google.com/file/d/1whq9tLIJDaMUUXL6emfuZcXh70ncAOqt/view?usp=sharing"
+      "https://drive.google.com/uc?id=1whq9tLIJDaMUUXL6emfuZcXh70ncAOqt&export=download",
+    date: new Date(2020, 0, 9),
+    hits: 80
   },
   {
     title: "Bird 3",
     path: "./assets/images/Bird-edited-3.jpg",
     original:
-      "https://drive.google.com/file/d/1hHe_fhv4RewwEAO682NywxYjpnjcVfzW/view?usp=sharing"
+      "https://drive.google.com/uc?id=1hHe_fhv4RewwEAO682NywxYjpnjcVfzW&export=download",
+    date: new Date(2020, 0, 8),
+    hits: 30
   },
   {
     title: "Lamp",
     path: "./assets/images/lamps.jpg",
     original:
-      "https://drive.google.com/file/d/1Oa5TJqAQsEUeAOpwGRMYzzidZod7N5pj/view?usp=sharing"
+      "https://drive.google.com/uc?id=1Oa5TJqAQsEUeAOpwGRMYzzidZod7N5pj&export=download",
+    date: new Date(2020, 0, 7),
+    hits: 50
   },
   {
     title: "Bird",
     path: "./assets/images/bird.jpg",
     original:
-      "https://drive.google.com/file/d/1CcC26DzGwDjyzm54-56Sv5ShQ_4CIBaG/view?usp=sharing"
+      "https://drive.google.com/uc?id=1CcC26DzGwDjyzm54-56Sv5ShQ_4CIBaG&export=download",
+    date: new Date(2020, 0, 6),
+    hits: 67
   },
   {
     title: "Aghanashini",
     path: "./assets/images/aghanashini-river-edited.jpeg",
     original:
-      "https://drive.google.com/file/d/17l1HysblpA6PsN50hLSkwbdfNPKd83F9/view?usp=sharing"
+      "https://drive.google.com/uc?id=17l1HysblpA6PsN50hLSkwbdfNPKd83F9&export=download",
+    date: new Date(2020, 0, 5),
+    hits: 37
   },
   {
     title: "Mansoon",
     path: "./assets/images/mansoon-edited.jpg",
     original:
-      "https://drive.google.com/file/d/1XJO19yTnN4SVN1LOFic071DeUCvJChUP/view?usp=sharing"
+      "https://drive.google.com/uc?id=1XJO19yTnN4SVN1LOFic071DeUCvJChUP&export=download",
+    date: new Date(2020, 0, 4),
+    hits: 79
   },
   {
     title: "Masur",
     path: "./assets/images/masur-river-edited.jpeg",
     original:
-      "https://drive.google.com/file/d/1IJ85puvUbgnAsW6SIhoDNGXuPBp94rSX/view?usp=sharing"
+      "https://drive.google.com/uc?id=1IJ85puvUbgnAsW6SIhoDNGXuPBp94rSX&export=download",
+    date: new Date(2020, 0, 3),
+    hits: 75
   },
   {
     title: "Rider",
     path: "./assets/images/rider-edited.jpeg",
     original:
-      "https://drive.google.com/file/d/1OcAh89iNyxmJlBUFVCzVoCCkXholFeVg/view?usp=sharing"
+      "https://drive.google.com/uc?id=1OcAh89iNyxmJlBUFVCzVoCCkXholFeVg&export=download",
+    date: new Date(2020, 0, 2),
+    hits: 86
   },
   {
     title: "Road",
     path: "./assets/images/road-edited.jpg",
     original:
-      "https://drive.google.com/file/d/1Jjwlq-wkOSPwGntx8L9ggYTtXLX2nOvJ/view?usp=sharing"
+      "https://drive.google.com/uc?id=1Jjwlq-wkOSPwGntx8L9ggYTtXLX2nOvJ&export=download",
+    date: new Date(2020, 0, 1),
+    hits: 67
   }
 ];
 
@@ -68,54 +88,6 @@ class Image {
     this.original = original;
   }
 }
-
-// const introImages = [
-//   {
-//     title: "Bird",
-//     path: "./assets/images/Bird-edited.jpg"
-//   },
-//   {
-//     title: "Maasur",
-//     path: "./assets/images/masur-river-edited.jpeg"
-//   },
-//   {
-//     title: "Mansoon",
-//     path: "./assets/images/mansoon-edited.jpg"
-//   }
-// ];
-
-// const socialLinks = [
-//   {
-//     title: "LinkedIn",
-//     link: "https://www.linkedin.com/in/raghavendraachari/",
-//     path: "./assets/social_media_icons/linkedin.svg",
-//     class: "linkedin-icon"
-//   },
-//   {
-//     title: "GitHub",
-//     link: "https://www.github.com/RaghavendraAchari",
-//     path: "./assets/social_media_icons/github.svg",
-//     class: "github-icon"
-//   },
-//   {
-//     title: "Twitter",
-//     link: "https://www.twitter.com/raghav_achari",
-//     path: "./assets/social_media_icons/twitter.svg",
-//     class: "twitter-icon"
-//   },
-//   {
-//     title: "Instagram",
-//     link: "https://www.instagram.com/raghav_achari",
-//     path: "./assets/social_media_icons/instagram.svg",
-//     class: "instagram-icon"
-//   },
-//   {
-//     title: "Facebook",
-//     link: "https://www.facebook.com/raghav.achari.33/",
-//     path: "./assets/social_media_icons/facebook.svg",
-//     class: "facebook-icon"
-//   }
-// ];
 
 function getAllImages() {
   return images;
