@@ -1,7 +1,7 @@
 var images = [
   {
     title: "Bird",
-    path: "./assets/images/Bird-edited.jpg",
+    path: "./assets/images/Bird-edited.JPG",
     original:
       "https://drive.google.com/uc?id=1yNMEuqGCEf3oaPhhe79nflYsQfpmtvCf&export=download",
     date: new Date(2020, 0, 10),
@@ -9,7 +9,7 @@ var images = [
   },
   {
     title: "Bird 2",
-    path: "./assets/images/Bird-edited-2.jpg",
+    path: "./assets/images/Bird-edited-2.JPG",
     original:
       "https://drive.google.com/uc?id=1whq9tLIJDaMUUXL6emfuZcXh70ncAOqt&export=download",
     date: new Date(2020, 0, 9),
@@ -17,7 +17,7 @@ var images = [
   },
   {
     title: "Bird 3",
-    path: "./assets/images/Bird-edited-3.jpg",
+    path: "./assets/images/Bird-edited-3.JPG",
     original:
       "https://drive.google.com/uc?id=1hHe_fhv4RewwEAO682NywxYjpnjcVfzW&export=download",
     date: new Date(2020, 0, 8),
