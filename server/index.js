@@ -13,10 +13,12 @@ app.use(cors());
 const images = require("./routes/api/images");
 const comments = require("./routes/api/comments");
 const socialLink = require("./routes/api/socialLinks");
+const admin = require("./routes/api/admin");
 
 app.use("/api/images", images);
 app.use("/api/comments", comments);
 app.use("/api/social-links", socialLink);
+app.use("/api/admin", admin);
 
 // if (process.env.NODE_ENV == "production") {
 app.use(express.static(__dirname + "/public/"));
